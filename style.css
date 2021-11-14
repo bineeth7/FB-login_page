@@ -44,4 +44,8 @@
     cursor: pointer;
     background: #2d5bba;
     border: 1px solid #224285;
+
+}
+.login_btn:hover{
+    background: #3B5998;
 }
