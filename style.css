@@ -8,3 +8,40 @@
     background: linear-gradient(#48649F, #3B5998, #3B5998);
     border-bottom: 1px solid #253a69;
 }
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.login_form{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.login_form .email,
+.login_form .password{
+    padding-left: 10px;
+}
+.login_form .email .mail,
+.login_form .password .pass{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login_btn{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
