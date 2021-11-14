@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #3B5998, #3B5998);
+    border-bottom: 1px solid #253a69;
+}
