@@ -104,20 +104,54 @@ section{
     font-size: 18px;
     border: 1px solid silver;
     border-radius: 4px;
+    margin-left:5px;
 }
 .email2{
     height: 38px;
-    width: 416px;
+    width: 421px;
     padding-left: 10px;
     font-size: 18px;
     border: 1px solid silver;
     border-radius: 4px;
+    margin-top: 7px;
 }
 .password2{
     height: 38px;
-    width: 416px;
+    width: 421px;
     padding-left: 10px;
     font-size: 18px;
     border: 1px solid silver;
     border-radius: 4px;
+    margin-top: 7px;
+}
+.birthday{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.month{
+    height: 28px;
+    width: 78px;
+}
+.day{
+    margin-left: 4px;
+    height: 28px;
+    width: 78px;
+}
+.year{
+    margin-left: 4px;
+    height: 28px;
+    width: 78px;
+}
+.birthwhy{
+    font-size: 11px;
+    padding-left: 270px;
+    margin-top: -28px;
+    width: 150px;
+}
+.birthwhy:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
 }
