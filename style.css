@@ -195,14 +195,15 @@ a{
 .signup:hover{
     background: linear-gradient(#74b85e, #598B45);
 }
-hr{
+.line{
     margin-top: 25px;
     width: 421px;
-    color: #D0CFCE;
+    margin-left: 10PX;
     
 }
 .createapage{
     margin-top: 10px;
     font-size: 13px;
     color: #3f3c3c;
+    margin-left: 10PX;
 }
