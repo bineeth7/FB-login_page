@@ -85,11 +85,12 @@ section{
     font-size: 22px;
     margin: 25px 0;
     padding-left: 11px;
+    font-weight: 600;
 }
 .free_hint{
     margin: -20px 5px;
     font-size: 14px;
-    color: #3f3c3c;
+    color: #838485;
     padding-left: 11px;
 }
 .signup_form{
@@ -211,6 +212,6 @@ a{
 .createapage{
     margin-top: 10px;
     font-size: 13px;
-    color: #3f3c3c;
+    color: #838485;
     margin-left: 10PX;
 }
