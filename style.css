@@ -49,6 +49,11 @@
 .login_btn:hover{
     background: #3B5998;
 }
+.keepmelogin{
+    font-size: 12px;
+    padding-top: 3px;
+    color: #8fa4d0;
+}
 section{
     height: 710px;
     width: 100%;
