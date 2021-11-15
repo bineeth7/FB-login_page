@@ -82,19 +82,19 @@ section{
     left: 57%;  
 }
 .signup_font{
-    font-size: 25px;
+    font-size: 22px;
     margin: 25px 0;
+    padding-left: 11px;
 }
 .free_hint{
     margin: -20px 5px;
     font-size: 14px;
     color: #3f3c3c;
-
+    padding-left: 11px;
 }
 .signup_form{
     margin-top: 50px;
     padding-left: 10px;
-
 }
 .firstname{
     height: 38px;
@@ -188,10 +188,10 @@ a{
 }
 .signup{
     margin-top: 20px;
-    height: 38px;
+    height: 32px;
     width: 170px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border: 1px solid #006117;
     border-radius: 3px;
