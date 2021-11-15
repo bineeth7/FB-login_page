@@ -87,7 +87,9 @@ section{
 }
 .free_hint{
     margin: -20px 5px;
-    font-size: 18px;
+    font-size: 14px;
+    color: #3f3c3c;
+
 }
 .signup_form{
     margin-top: 50px;
