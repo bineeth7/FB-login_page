@@ -31,34 +31,34 @@
         <div class="signup_body">
             <p class="signup_font">Sign Up</p>
             <p class="free_hint">It's free and always will be.</p>
-            <form class="signup_form">
+            <form class="signup_form" id="signup-formid">
                 <div>
-                    <input class="firstname" type="text" placeholder="First name" name="">
-                    <input class="surname" type="text" placeholder="Surname" name="">
-                    <input class="email2" type="text" placeholder="Mobile number or email address">
-                    <input class="password2" type="password" placeholder="New password">
+                    <input class="firstname" type="text" placeholder="First name" name="fname">
+                    <input class="surname" type="text" placeholder="Surname" name="sname">
+                    <input class="email2" type="text" placeholder="Mobile number or email address" name="emailAddress">
+                    <input class="password2" type="password" placeholder="New password" name="passwordjs">
                 </div>
                 <p class="birthday">Birthday:</p>
                 <div class="birth_date">
-                    <select class="month">
+                    <select class="month" name="monthjs">
                         <option>Month:</option><option>Jan</option><option>Feb</option><option>Mar</option>
                         <option>Apr</option><option>May</option><option>Jun</option><option>Jul</option>
                         <option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option>
                         <option>Dec</option>
                       </select>
                
-                      <select class="day">
-                        <option>Day:</option><option>1</option><option>2</option><option>3</option>
+                      <select class="day" name="dayjs">
+                        <option value="">Day:</option><option>1</option><option>2</option><option>3</option>
                         <option>4</option><option>5</option><option>6</option><option>7</option>
                         <option>8</option><option>9</option><option>10</option><option>11</option>
                         <option>12</option><option>13</option><option>14</option><option>15</option>
                         <option>16</option><option>17</option><option>18</option><option>19</option>
                         <option>20</option><option>21</option><option>22</option><option>23</option>
                         <option>24</option><option>25</option><option>26</option><option>27</option>
-                        <option>28</option><option>29</option><option>30</option>
+                        <option>28</option><option>29</option><option>30</option><option>31</option>
                       </select>
                
-                      <select class="year">
+                      <select class="year" name="yearjs">
                         <option>Year:</option><option>1970</option><option>1972</option><option>1974</option>
                         <option>1976</option><option>1978</option><option>1980</option><option>1982</option>
                         <option>1984</option><option>1986</option><option>1988</option><option>1990</option>
@@ -69,11 +69,15 @@
                       <p class="birthwhy"><a href="#">Why do i need to provide my<br>birthday?</a></p>
                 </div>
 
+               <div>
+                <br> <label class="gender">Gender</label><br>
                 <input class="malebtn" type="radio" name="gender" value="male">
                 <input class="femalebtn" type="radio" name="gender" value="female">
+                <input class="custombtn" type="radio" name="gender" value="custom">
           
                 <p class="malefont">Male</p>
                 <p class="femalefont">Female</p>
+                <p class="customfont">Custom</p>
                 <p class="agreement">By clicking Sign Up, you are indicating that you have<br>read and agree to our <a href="#">Terms and Privacy Policy</a></p>
           
                 <button class="signup">Sign Up</button>
@@ -81,10 +85,12 @@
               </form>
               <hr class="line">
               <p class="createapage">Create a page for celebrity, brand or business</p>
-            </div>
+        </div>
           
             </section>
-          
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+            <script src="script.js"></script>
           </body>
 </html>
 
